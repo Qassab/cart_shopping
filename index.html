@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="cart">
+      <div class="container">
+        <div class="content">
+          <div class="shopping-item">
+            <h3 class="title">Whey</h3>
+            <img src="img/whey1.jpeg" alt="" class="item-img" />
+            <span class="price">7</span
+            ><button class="add-cart-btn 1">Add To Cart</button>
+          </div>
+          <div class="shopping-item">
+            <h3 class="title">Whey Protein</h3>
+            <img src="img/whey3.jpeg" alt="" class="item-img" /><span
+              class="price"
+              >9</span
+            ><button class="add-cart-btn 2">Add To Cart</button>
+          </div>
+        </div>
+        <div class="cart-row">
+          <span class="item">ITEM</span>
+          <span class="price">PRICE</span>
+          <span class="quantity">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+          <div class="cart-row cart-detalis">
+            <div class="cart-item">
+              <img class="item-img" src="img/whey1.jpeg" />
+              <span class="cart-item-title">Whey </span>
+            </div>
+            <span class="cart-price">$9</span>
+            <div class="cart-quantity">
+              <input class="quantity-input" type="number" value="1" min="1" />
+              <button class="btn-remove" type="button">REMOVE</button>
+            </div>
+          </div>
+
+          <div class="cart-row cart-detalis">
+            <div class="cart-item">
+              <img class="item-img" src="img/whey1.jpeg" />
+              <span class="cart-item-title">Whey Protien</span>
+            </div>
+            <span class="cart-price">$10</span>
+            <div class="cart-quantity">
+              <input class="quantity-input" type="number" value="2" min="1" />
+              <button class="btn-remove" type="button">REMOVE</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-total">
+          <strong class="total-title">Total</strong>
+          <span class="total-price">39.97</span>
+        </div>
+        <button class="btn-purchase" type="button">PURCHASE</button>
+      </div>
+    </section>
+    <!-- <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">The Generics</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="Images/YouTube Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.spotify.com" target="_blank">
+                            <img src="Images/Spotify Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="Images/Facebook Logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer> -->
+    <script src="script.js"></script>
+  </body>
+</html>
